@@ -1,0 +1,1383 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body, footer {
+    font-family: "Noto Sans", sans-serif;
+    margin: 0;
+    padding: 0; 
+    height: 100%;
+}
+
+/* Шапка */
+.header-main{
+    background-image: url(images/back.jpg);
+    background-size: cover;
+    height: 900px;
+}
+
+.header-title {
+    padding-top: 70px;
+    padding-left: 618px;
+    height: 51px;
+    width: 182px;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 2em;
+    line-height: 51px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header-text {
+    color: white;
+}
+
+.header-text p {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    padding-top: 131px;
+    padding-left: 558px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header-text h1 {
+   font-size: 64px;
+   font-weight: 700;
+   padding-left: 263px;
+   margin-top: -20px;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header-text h2 {
+    font-size: 42px;
+    font-weight: 400;
+    padding-left: 435px;
+    margin-top: -40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#header-botton {
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    line-height: 50px;
+    border-radius: 5px;
+    margin-left: 558px;
+    margin-top: 90px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#header-botton a {
+    color: black;
+    line-height: 50px;
+    padding-left: 45px;
+    text-decoration: none;
+    font-family: "Kanit", sans-serif;
+}
+
+/* Блок "Услуги" */
+.main-uslugi {
+    margin-top: 200px;
+    margin-left: 160px;
+    height: 600px;   
+    margin-bottom: 120px;
+}
+
+.uslugi-main-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.69px;
+    text-align: left;
+    color: #cbc6c6;
+    padding-bottom: 80px;
+}
+
+.container {   
+    width: 500px;
+    float: left;
+}
+
+.uslugi-main-topic-1 h2 {
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 24.52px;
+   text-align: left;
+}
+
+.uslugi-main-topic-1 span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;    
+}
+
+.uslugi-main-topic-2 h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.52px;
+    text-align: left;   
+}
+ 
+ .uslugi-main-topic-2 span {
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 19.07px;
+     text-align: left;   
+}
+
+.uslugi-main-topic-3 h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.52px;
+    text-align: left;
+}
+ 
+ .uslugi-main-topic-3 span {
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 19.07px;
+     text-align: left;   
+}
+
+.uslugi-main-topic-4 h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.52px;
+    text-align: left; 
+}
+ 
+ .uslugi-main-topic-4 span {
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 19.07px;
+     text-align: left;
+}
+
+.uslugi-background-photo img {
+    float: right;
+    width: 620px;
+    height: 600px;
+    padding-right: 100px;
+}
+
+
+/* Блок "Зеленый Тариф" */
+.main-greentarif {
+    padding-top: 120px;
+    padding-left: 160px;
+   
+}
+
+.greentarif-title {
+    color: #868585;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.69px;
+    text-align: left;
+    padding-bottom: 80px;
+}
+
+.greentarif-text-photo {
+    width: 500px;
+    height: 150px;
+    padding-bottom: 80px;
+}
+
+.greentarif-text-photo img {
+    background-size: cover;
+    width: 220px;
+    float: left;
+    padding-right: 20px;
+}
+
+.greentarif-text-photo span {
+    width: 260px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    float: right;
+}
+
+.block-conteiner-main {
+    width: 500px;
+    padding-left: 160px;
+}
+
+.block-conteiner-main h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.52px;
+    text-align: left;
+}
+
+.block-conteiner-main span {
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 19.07px;
+   text-align: left;
+
+}
+
+.block-1, .block-2 {
+    width: 200px;
+    display: inline-block;
+}
+
+.block-1 {
+    padding-right: 50px;
+}
+
+.block-2 {
+    margin-top: 25px;
+    transform: translateY(-25px);
+}
+
+.block-3, .block-4 {
+    width: 200px;
+    display: inline-block;
+}
+
+.block-3 {
+    padding-right: 50px;
+}
+
+.block-4 {
+    margin-top: 65px;
+    transform: translateY(-65px);
+}
+
+.greentarif-right-block {
+    width: 600px;
+    float: right;
+    padding-right: 100px;
+}
+
+.greentarif-right-text span {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.52px;
+    text-align: left;
+}
+
+.greentarif-right-photo img {
+    width: 600px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+/* Блок "Вставка" */
+.main-slide {
+   background-image: url(images/solar-field.jpg);
+   background-size: cover;
+   height: 500px;
+   margin-top: 120px;
+}
+
+.slide-text {
+  width: 680px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 57.2px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding-left: 400px;
+  padding-top: 150px;
+  
+}
+
+/* Блок "Наши Клиенты" */
+.main-ourclients {
+    padding-top: 120px;
+    padding-left: 160px;
+    padding-bottom: 120px;
+}
+
+.ourclients-title {
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 32.69px;
+   text-align: left;
+   color: #868585;
+   padding-bottom: 80px;
+}
+
+.ourclients-photo img{
+    width: 500px;
+}
+
+.right {
+    float: right;
+    padding-right: 100px;
+    width: 600px;
+}
+
+.right-title {
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 24.52px;
+}
+
+.right-text{
+    padding-top: 30px;
+}
+
+.right-text p{
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 19.07px;
+   padding-left: 40px;
+}
+
+/* Блок "5 шагов" */
+.main-steps {
+    padding-left: 160px;
+    padding-bottom: 120px;
+}
+
+.steps-title { 
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 32.69px;
+   text-align: left;
+   color: #868585;
+   padding-bottom: 80px;
+}
+
+.steps-main-text {
+    width: 500px;
+}
+
+#text-1 p {  
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 19.07px;
+   text-align: left;
+   color: #868585;
+}
+
+#text-1 h2 {
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 24.52px;
+   text-align: left;
+}
+
+#text-1 span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  text-align: left;
+}
+
+#text-2 p {  
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;
+    color: #868585;
+ }
+ 
+ #text-2 h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.52px;
+    text-align: left;
+ }
+ 
+ #text-2 span {
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 19.07px;
+   text-align: left;
+ }
+
+ #text-3 p {  
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;
+    color: #868585;
+ }
+ 
+ #text-3 h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.52px;
+    text-align: left;
+ }
+ 
+ #text-3 span {
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 19.07px;
+   text-align: left;
+ }
+
+ #text-4 p {  
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;
+    color: #868585;
+ }
+ 
+ #text-4 h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.52px;
+    text-align: left;
+ }
+ 
+ #text-4 span {
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 19.07px;
+   text-align: left;
+ }
+
+ #text-5 p {  
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;
+    color: #868585;
+ }
+ 
+ #text-5 h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.52px;
+    text-align: left;
+ }
+ 
+ #text-5 span {
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 19.07px;
+   text-align: left;
+ }
+
+.right-photo img{
+    width: 600px;
+    height: 670px;
+    float: right;
+    padding-right: 100px;
+}
+
+/* Блок  "footer" */
+footer {
+    background-image: url("images/footer1.png");
+    height: 500px;
+}
+
+.left {
+   padding-left: 200px;
+   padding-top: 45px;
+}
+
+.title {
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 32.69px;
+   text-align: left;
+   color: white;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.form_input {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.input_number {
+    width: 450px;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;   
+    outline: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.input_name {
+    width: 450px;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;   
+    outline: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;
+    padding-top: 50px;
+}
+
+input::placeholder {
+    color:white;
+}
+
+form{
+    padding-top: 20px;
+}
+
+form button { 
+    display: block;
+    border-radius: 5px;
+    color: black;
+    width: 150px;
+    height: 25px;
+    border: none;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.button a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.52px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-left: 55px;
+}
+
+.right-2 {
+    padding-right: 200px;
+    padding-top: 45px;
+    padding-left: 50px;
+    color: white;
+    float: right;
+  
+}
+
+.right-title-2 {  
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.69px;
+    text-align: left;
+}
+
+#span-1 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.52px;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+#span-2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.52px;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+#span-3 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.52px;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+#numbers {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.52px;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+#right-work-time {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.52px;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+.logo {
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.2em;
+    line-height: 51px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-left: 618px;
+    padding-top: 15px;
+ 
+}
+
+/* Адаптивность к разным форматам */
+@media (max-width: 1379px) {
+    /* Блок "Услуги */
+    .main-uslugi {
+        margin-top: 200px;
+        margin-left: 100px;
+        height: 650px;
+        margin-bottom: 120px;
+    }
+
+    .container {
+        width: 450px;
+        float: left;
+        padding-bottom: 120px;
+    }
+
+    .uslugi-background-photo img {
+        float: right;
+        width: 520px;
+        height: 600px;
+        padding-right: 120px;
+    }
+}
+
+@media (max-width: 1359px) {
+    /* Блок "Зеленый Тариф" */
+    .greentarif-text-photo {
+        width: 400px;
+        height: 280px;
+        padding-bottom: 80px;
+    }
+
+    .greentarif-text-photo img {
+        background-size: cover;
+        width: 400px;
+        float: left;
+    }
+
+    .greentarif-text-photo span {
+        width: 300px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.07px;
+        float: right;
+        padding-right: 100px;
+        padding-top: 20px;
+    }
+
+    .block-conteiner-main {
+        width: 400px;
+        padding-top: 30px;
+    }
+
+    .block-1 {
+        padding-right: 0px;
+    }
+
+    .block-2 {
+        padding-right: 0px;
+    }
+
+    .block-3 {
+        padding-right: 0px;
+    }
+
+    .block-4 {
+        padding-right: 0px;
+    }
+
+    .greentarif-right-block {
+        width: 500px;
+        float: right;
+        padding-right: 170px;
+    }
+
+    .greentarif-right-photo img {
+        width: 500px;
+        height: 400px;
+        margin-top: 20px;
+    }
+
+    /* Блок "Наши Клиенты" */
+    .ourclients-photo img {
+        width: 450px;
+    }
+
+    .right {
+        float: right;
+        padding-right: 120px;
+        width: 500px;
+    }
+}
+
+@media (max-width: 1322px) {
+    /* Блок "Наши Клиенты" */
+    .steps-main-text {
+        width: 350px;
+    }
+
+    .right-photo img {
+        width: 500px;
+        height: 670px;
+        float: right;
+        padding-right: 140px;
+        padding-top: 80px;
+    }
+
+    /* Блок "Футер" */
+    .right-2 {
+        padding-right: 100px;
+        padding-top: 45px;
+        color: white;
+        float: right;
+    }
+    
+    .left {
+        padding-left: 100px;
+        padding-top: 45px;
+    }
+
+    .logo {
+        color: white;
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+        font-size: 1.2em;
+        line-height: 51px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        padding-left: 570px;
+        padding-top: 15px;
+    }
+}
+
+@media (max-width: 1229px) {
+    /* Блок "Наши Клиенты" */
+    .ourclients-photo img {
+        width: 400px;
+    }
+
+    .right-text p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.07px;
+        padding-left: 20px;
+    }
+
+    .right-text {
+        padding-top: 10px;
+    }
+
+    .right {
+        float: right;
+        padding-right: 151px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 1209px) {
+    .greentarif-right-block {
+        width: 350px;
+        float: right;
+        padding-right: 150px;
+    }
+
+    .greentarif-right-photo img {
+        width: 350px;
+        height: 300px;
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 1180px) {
+    /* Шапка */
+    .header-title {
+        padding-top: 70px;
+        padding-left: 515px;
+        height: 51px;
+        width: 182px;
+        color: white;
+        font-family: "Kanit", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+        font-size: 2em;
+        line-height: 51px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header-text p {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    padding-top: 131px;
+    padding-left: 440px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header-text h1 {
+    font-size: 64px;
+    font-weight: 700;
+    padding-left: 150px;
+    margin-top: -20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header-text h2 {
+    font-size: 42px;
+    font-weight: 400;
+    padding-left: 300px;
+    margin-top: -40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#header-botton {
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    line-height: 50px;
+    border-radius: 5px;
+    margin-left: 445px;
+    margin-top: 90px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Блок "Шапка" */
+.main-uslugi {
+    margin-top: 200px;
+    margin-left: 100px;
+    height: 950px;
+    margin-bottom: 120px;
+}
+
+.container {
+    width: 300px;
+    float: left;
+    padding-bottom: 120px;
+}
+
+.uslugi-background-photo img {
+    float: right;
+    width: 500px;
+    height: 600px;
+    padding-right: 150px;
+    padding-top: 150px;
+}
+}
+
+@media (max-width: 1150px) {
+    /* Блок "5 шагов" */
+    .right-photo img {
+        width: 420px;
+        height: 500px;
+        float: right;
+        padding-right: 130px;
+        padding-top: 150px;
+    }
+
+    .steps-title {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32.69px;
+        text-align: left;
+        color: #868585;
+        padding-bottom: 60px;
+    }
+
+    .steps-main-text {
+        width: 300px;
+    }
+
+    /* Блок "Футер" */
+    .logo {
+        color: white;
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+        font-size: 1.2em;
+        line-height: 51px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        padding-left: 470px;
+        padding-top: 15px;
+    }
+
+    .left {
+        padding-left: 50px;
+        padding-top: 45px;
+    }
+
+    .right-2 {
+        padding-right: 50px;
+        padding-top: 45px;
+        /* padding-left: 40px; */
+        color: white;
+        float: right;
+    }
+}
+
+@media (max-width: 1060px) {
+    /* Шапка */
+    .header-text p {
+        font-size: 18px;
+        font-weight: 400;
+        color: white;
+        padding-top: 131px;
+        padding-left: 380px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .header-text h1 {
+        font-size: 64px;
+        font-weight: 700;
+        padding-left: 80px;
+        margin-top: -20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .header-text h2 {
+        font-size: 42px;
+        font-weight: 400;
+        padding-left: 250px;
+        margin-top: -40px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    #header-botton {
+        width: 300px;
+        height: 50px;
+        background-color: white;
+        line-height: 50px;
+        border-radius: 5px;
+        margin-left: 385px;
+        margin-top: 90px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Блок "Услуги" */
+    .greentarif-title {
+        color: #868585;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32.69px;
+        text-align: left;
+        padding-bottom: 80px;
+    }
+
+    .main-uslugi {
+        margin-top: 100px;
+        margin-left: 100px;
+        height: 960px;
+        margin-bottom: 120px;
+    }
+
+    .container {
+        width: 200px;
+        float: left;
+        padding-bottom: 120px;
+    }
+
+    .uslugi-main-topic-1 h2 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24.52px;
+        text-align: left;
+    }
+
+    .uslugi-main-topic-1 span {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 19.07px;
+        text-align: left;
+    }
+
+    .uslugi-main-topic-2 h2 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24.52px;
+        text-align: left;
+    }
+
+    .uslugi-main-topic-2 span {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 19.07px;
+        text-align: left;
+    }
+
+    .uslugi-main-topic-3 h2 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24.52px;
+        text-align: left;
+    }
+
+    .uslugi-main-topic-3 span {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 19.07px;
+        text-align: left;
+    }
+
+    .uslugi-main-topic-4 h2 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24.52px;
+        text-align: left;
+    }
+
+    .uslugi-main-topic-4 span {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 19.07px;
+        text-align: left;
+    }
+
+    .uslugi-background-photo img {
+        float: right;
+        width: 400px;
+        height: 400px;
+        padding-right: 180px;
+        padding-top: 310px;
+    }
+
+    /* Блок "Зеленый Тариф" */
+    .main-greentarif {
+        padding-top: 290px;
+        padding-left: 140px;
+        padding-bottom: 10px;
+    }
+
+    .greentarif-title {
+        color: #868585;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 32.69px;
+        text-align: left;
+        padding-bottom: 50px;
+    }
+
+    .block-conteiner-main {
+        width: 500px;
+        padding-left: 140px;
+    }
+
+    .greentarif-right-block {
+        width: 350px;
+        float: right;
+        padding-right: 90px;
+    }
+
+    .greentarif-right-photo img {
+        width: 350px;
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    /* Блок "Наши Клиенты" */
+    .ourclients-photo img {
+        width: 300px;
+    }
+
+    .right {
+        float: right;
+        padding-right: 151px;
+        width: 300px;
+    }
+
+    .ourclients-title {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32.69px;
+        text-align: left;
+        color: #868585;
+        padding-bottom: 40px;
+    }
+
+    .main-ourclients {
+        padding-top: 120px;
+        padding-left: 160px;
+        height: 400px;
+    }
+
+    /* Блок "5 шагов" */
+    .steps-title {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 32.69px;
+        text-align: left;
+        color: #868585;
+        padding-bottom: 60px;
+    }
+}
+
+@media (max-width: 1080px) {
+    /* Блок "Вставка" */
+    .slide-text {
+        width: 680px;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 57.2px;
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        padding-left: 230px;
+        padding-top: 150px;
+    }
+}
+
+@media (max-width: 1012px) {
+    /* Блок "Футер" */
+    .title {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 32.69px;
+        text-align: left;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .input_number {
+        width: 350px;
+        border: none;
+        border-bottom: 1px solid white;
+        background-color: transparent;
+        outline: none;
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.07px;
+        text-align: left;
+        padding-top: 50px;
+    }
+
+    .input_name {
+        width: 350px;
+        border: none;
+        border-bottom: 1px solid white;
+        background-color: transparent;
+        outline: none;
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.07px;
+        text-align: left;
+        padding-top: 50px;
+    }
+
+    .right-2 {
+        padding-right: 50px;
+        padding-top: 45px;
+        color: white;
+        float: right;
+    }
+
+    .right-title-2 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 32.69px;
+        text-align: left;
+    }
+
+    #span-1 {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24.52px;
+        text-align: left;
+        padding-bottom: 25px;
+    }
+
+    #span-2 {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24.52px;
+        text-align: left;
+        padding-bottom: 25px;
+    }
+
+    #span-3 {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24.52px;
+        text-align: left;
+        padding-bottom: 25px;
+    }
+
+    #numbers {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24.52px;
+        text-align: left;
+        padding-bottom: 25px;
+    }
+
+    #right-work-time {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24.52px;
+        text-align: left;
+        padding-bottom: 25px;
+    }
+
+    .logo {
+        color: white;
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+        font-size: 1.2em;
+        line-height: 51px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        padding-left: 370px;
+        padding-top: 15px;
+    }
+}
+
+@media (max-width: 984px) {
+    /* Блок "5 шагов"*/
+    .right-photo img {
+        width: 420px;
+        height: 500px;
+        float: right;
+        padding-right: 60px;
+        padding-top: 180px;
+    }
+}
+
+@media (max-width: 980px) {
+    /* Шапка */
+    .header-main {
+        background-image: url(images/back.jpg);
+        background-size: cover;
+        height: 700px;
+    }
+
+    .header-title {
+        padding-top: 70px;
+        padding-left: 440px;
+        height: 51px;
+        width: 182px;
+        color: white;
+        font-family: "Kanit", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+        font-size: 2em;
+        line-height: 51px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .header-text p {
+        font-size: 18px;
+        font-weight: 400;
+        color: white;
+        padding-top: 100px;
+        padding-left: 350px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .header-text h1 {
+        font-size: 48px;
+        font-weight: 700;
+        padding-left: 160px;
+        margin-top: -20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .header-text h2 {
+        font-size: 38px;
+        font-weight: 400;
+        padding-left: 250px;
+        margin-top: -40px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    #header-botton {
+        width: 300px;
+        height: 50px;
+        background-color: white;
+        line-height: 50px;
+        border-radius: 5px;
+        margin-left: 360px;
+        margin-top: 90px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Блок "Зеленый Тариф" */
+    .greentarif-right-block {
+        width: 350px;
+        float: right;
+        padding-right: 60px;
+    }
+
+    .main-greentarif {
+        padding-top: 290px;
+        padding-left: 100px;
+        padding-bottom: 10px;
+    }
+
+    .block-conteiner-main {
+        width: 500px;
+        padding-left: 100px;
+    }
+
+    /* Блок "Вставка" */
+    .slide-text {
+        width: 680px;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 57.2px;
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        padding-left: 160px;
+        padding-top: 150px;
+    }
+}
+
+@media (max-width: 402px) {
+    /* Блок "Футер" */
+    .logo {
+        color: white;
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+        font-size: 1em;
+        line-height: 51px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        padding-left: 360px;
+        padding-top: 15px;
+    }
+}
+
+@media (max-width: 390px) {
+    /* Блок "Услуги" */
+    .uslugi-background-photo img {
+        float: right;
+        width: 400px;
+        height: 400px;
+        padding-right: 110px;
+        padding-top: 250px;
+    }
+
+    /* Блок "Зеленый Тариф" */
+    .greentarif-title {
+        color: #868585;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 32.69px;
+        text-align: left;
+        padding-bottom: 50px;
+    }
+
+    .greentarif-right-block {
+        width: 350px;
+        float: right;
+        padding-right: 40px;
+    }
+
+    /* Блок "5 шагов" */
+    .steps-title {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 32.69px;
+        text-align: left;
+        color: #868585;
+        padding-bottom: 60px;
+    }
+}

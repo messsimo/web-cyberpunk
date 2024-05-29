@@ -1,0 +1,112 @@
+/* Удаление обводки у input полей*/
+body {
+    outline: none;
+}
+
+/* Закрепление объекта при скролле */
+body {
+    position: fixed;
+}
+
+/* Чтобы наложить фото на объект*/ 
+.header-button{
+    position: relative;
+  }
+  
+  .header-button  a  button {
+    z-index: 1;
+  }
+  
+  .header-button img {
+    position: absolute;
+    z-index: 2;
+    transform: translateY(-25px); /* Для смешения фото в классе-контейнере */
+  }
+
+/* Смена градуса изображения */
+a {
+  transform: rotate(25deg); 
+}
+
+/* Отцентровка div */
+.contactMe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Выраввнивание текста и изображения */ 
+.contactMe-email .icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.contactMe-email span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Обводка вокруг обекта */
+.aboutMe .container {
+  border: 0.25px solid #ccc;
+  box-shadow: 0 0 12px white;
+}
+
+/* Cкрыть блок */
+body {
+  display: none;
+}
+
+/* Плавающие окно */
+test {
+animation: swim 7s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes swim {
+  0% {
+      transform: translateY(+2px);
+  }
+  25% {
+    transform: translateY(-2px);
+  }
+  50% {
+      transform: translateX(-2px);
+  }
+  75% {
+    transform: translateX(+2px)
+  }
+  100% {
+      transform: translateY(+2px);
+  }
+}
+
+/* Плавное наведение о отведение */
+.aboutMe .button-next {
+  /* Исходное состояние */
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.aboutMe .button-next:hover {
+  transition: transform 0.7s ease-in-out;
+  transform: translateX(+5px)
+}
+
+/* Плавный скролл (ДЛЯ ТЕГА HTML) */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ДЛЯ АДАПТАЦИИ заранее: поможет оставлять оъект по центру без сдвигов при адапатации */
+/* центрует объект по горизантали */
+test {
+margin: 10px auto;
+}
+
+/* Зацентровать DIV */
+.aboutMe .container {
+  width: auto;
+  margin: 70px 100px auto;
+}
