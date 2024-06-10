@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poetsen+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    height: 300px;
+}
+
+.container-footer {
+    padding-top: 75px;
+    padding-left: 150px;
+}
+
+.container-footer h2 {
+    font-size: 32px;
+    padding-bottom: 25px;
+}
+
+.container-footer p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.container-right {
+    float: right;
+    padding-top: 75px;
+    padding-right: 200px;
+}
+
+.container-right h2 {
+    font-size: 32px;
+    padding-bottom: 25px;
+}
+
+.container-right p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-style: italic;
+}

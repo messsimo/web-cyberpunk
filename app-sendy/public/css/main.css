@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poetsen+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.block-1 {
+    height: 800px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.notebook {
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin-right: -270px;
+    margin-top: 100px;
+}
+
+.container {
+    padding-top: 220px;
+    padding-left: 200px;
+    width: 400px;
+    position: absolute;
+    z-index: 1;
+}
+
+.container p {
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.container span {
+    font-size: 26px;
+}
+
+.container button {
+    margin-top: 40px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    border: none;
+    font-size: 18px;
+    background-color: black;
+    transition: 0.3s ease-in-out;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.container button a {
+    text-decoration: none;
+}
+
+.container button:hover {
+    transition: 0.2s ease-in-out;
+    background-color: transparent;
+    color: black;
+}
+
+.block-1 .decoration {
+    width: 300px;
+    height: 200px;
+    margin-top: 550px;
+    margin-left: 80px;
+    animation: swim 7s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+/* Block-2 */
+.block-2 {
+    font-family: "Montserrat", sans-serif;
+    height: 600px;
+}
+
+.block-2 h2 {
+    font-size: 42px;
+    display: grid;
+    place-items: center;
+}
+
+.container-block-2 {
+    padding-top: 70px;
+    margin: 0 auto;
+    width: 720px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.block-2 img {
+    width: 400px;
+    height: 300px;
+    float: right;
+    padding-right: 80px;
+    animation: swim 7s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes swim {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+
+  }
+

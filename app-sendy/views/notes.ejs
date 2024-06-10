@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="/css/notes.css">
+</head>
+<body>
+    <%- include("blocks/header") -%>
+
+    <div class="addnotes">
+        <div class="rigth">
+            <img src="/images/blog.png">
+        </div>
+
+        <div class="left">
+            <h1>Hi!</h1>
+            <p>Would you like to make a note?</p>
+            <!-- Form for add in array "notes" some text -->
+            <form method="post" action="/notes">
+                <textarea type="text" placeholder="Write your thoughts" name="description" maxlength="100"></textarea>
+                <button type="submit">Public</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="notes">
+        <h2>Your notes:</h2>
+
+        <!-- We loop through the "notes" array and display each element of the array on the screen in a separate block -->
+        <div class="notes-container">
+            <% notes.forEach((el) => { %>
+                <div class="block-notes">
+                    <p><%= el %></p>
+                </div>
+            <% }) %>
+        </div>
+    </div>
+
+    <%- include("blocks/footer") -%>
+
+   <script src="./scripts/remove.js"></script>
+</body>
+</html>
