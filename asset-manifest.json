@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/web-cyberpunk/static/css/main.fc0bcfcf.css",
+    "main.js": "/web-cyberpunk/static/js/main.c460d7c1.js",
+    "static/media/11.jpg": "/web-cyberpunk/static/media/11.01ec1f9fb9f0c90fa5b3.jpg",
+    "static/media/Untitled-1 1-2.jpg": "/web-cyberpunk/static/media/Untitled-1 1-2.9779490f0a706a7a4968.jpg",
+    "static/media/Cyberpunk_2077_logo 1.svg": "/web-cyberpunk/static/media/Cyberpunk_2077_logo 1.2c2daa6cf5e8aa5436c2669b78858683.svg",
+    "static/media/Rectangle 599.jpg": "/web-cyberpunk/static/media/Rectangle 599.1a6e00f656317989378b.jpg",
+    "static/media/c06611743 1.png": "/web-cyberpunk/static/media/c06611743 1.37f44537b623f487c7df.png",
+    "static/media/22.jpeg": "/web-cyberpunk/static/media/22.3444492f59af47d2cd51.jpeg",
+    "static/media/Group 217.png": "/web-cyberpunk/static/media/Group 217.a6dd3f3a0a5b20c59ecb.png",
+    "static/media/Rectangle 597.jpg": "/web-cyberpunk/static/media/Rectangle 597.7acdd161a4f984ec1944.jpg",
+    "static/media/Rectangle 598.jpg": "/web-cyberpunk/static/media/Rectangle 598.6a0f1730b7969db40a9e.jpg",
+    "static/media/22 1-2.png": "/web-cyberpunk/static/media/22 1-2.cccbf4a2db3d8c8572b1.png",
+    "static/media/instagram-square logo.svg": "/web-cyberpunk/static/media/instagram-square logo.c14b0bc88dce698042e845b292f84c2b.svg",
+    "static/media/youtube logo.svg": "/web-cyberpunk/static/media/youtube logo.50b7e9d4af8ffb59c8dd5363b5db6f3d.svg",
+    "static/media/vk logo.svg": "/web-cyberpunk/static/media/vk logo.616410a97101ac0dfd412e73daa02eec.svg",
+    "static/media/twitter-square logo.svg": "/web-cyberpunk/static/media/twitter-square logo.58aad13ee38e598b59ce13e4c4b97787.svg",
+    "static/media/facebook.svg": "/web-cyberpunk/static/media/facebook.4cf79cc695d13f69ca9cb3758127390c.svg",
+    "static/media/twitch logo.svg": "/web-cyberpunk/static/media/twitch logo.002733ffff0b9e108161d7857feceadb.svg",
+    "index.html": "/web-cyberpunk/index.html",
+    "main.fc0bcfcf.css.map": "/web-cyberpunk/static/css/main.fc0bcfcf.css.map",
+    "main.c460d7c1.js.map": "/web-cyberpunk/static/js/main.c460d7c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc0bcfcf.css",
+    "static/js/main.c460d7c1.js"
+  ]
+}
