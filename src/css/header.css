@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: url("/src/images/11.jpg");
+    width: 100%;
+}
+
+header .header-nav {
+     padding-top: 20px; 
+}
+
+header .header-nav .header-logo {
+    padding-left: 320px;
+}
+
+header .header-nav .header-logo img {
+    width: 296px;
+    height: 74px;
+    display: inline-block;
+}
+
+header .header-icons {
+    float: right;
+    padding-right: 320px;
+    padding-top: 22px;
+}
+
+header .header-icons img {
+    margin-right: 45px;
+}
+
+header .field {
+    margin-top: 533px;
+    margin-left: 976px;
+    background-color: #F8F200;
+    width: 624px;
+    height: 369px;
+    clip-path: polygon(40px 0%, 100% 0, 100% calc(100% - 40px), calc(100% - 40px) 100%, 0 100%, 0% 40px);
+}
+
+header .field img {
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+header .field button {
+    margin-top: 40px;
+    margin-left: 70px;
+    background-color: black;
+    color: #F8F200;
+    width: 272px;
+    height: 78px;
+    line-height: 40px;
+    font-size: 24px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
